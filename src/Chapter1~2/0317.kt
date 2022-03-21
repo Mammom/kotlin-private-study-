@@ -1,4 +1,4 @@
-//import java.awt.Color
+package `Chapter1~2`//import java.awt.Color
 //
 //fun getMnemonic(color : Color){
 //    when(color){
@@ -9,16 +9,16 @@
 //        Color.BLUE -> "Battle"
 //    }
 //}
-//fun main(){
+//fun `Chapter1~2`.main(){
 //    println(getMnemonic(Color.RED))
 //}
 
 interface Expr
 
-class Num(val value :Int) :Expr
-class  Sum (val left : Expr, val right :Expr) : Expr
+class Num(val value :Int) : Expr
+class  Sum (val left : Expr, val right : Expr) : Expr
 
-fun eval(e:Expr): Int =
+fun eval(e: Expr): Int =
     if (e is Num){
         e.value
     }
@@ -31,5 +31,5 @@ fun eval(e:Expr): Int =
 
 
 fun main(){
-    println(eval(Sum(Sum(Num(1),Num(2)),Num(4))))
+    println(eval(Sum(Sum(Num(1), Num(2)), Num(4))))
 }

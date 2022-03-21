@@ -1,19 +1,19 @@
-//fun main(args : Array<String>) {
+package `Chapter1~2`//fun `Chapter1~2`.main(args : Array<String>) {
 //    val name = if (args.isNotEmpty()) args[0] else "Kotlin"
 //    println("하이, $name" )
 //}
 
-//fun main(args:Array<String>){
+//fun `Chapter1~2`.main(args:Array<String>){
 //    if(args.size >0){
 //        println("반가워요, ${args[0]}")
 //    }
 //}
 
-//fun main(args: Array<String>){
+//fun `Chapter1~2`.main(args: Array<String>){
 //    println("하이 ${if(args.size>0) args[0] else "someone"}")
 //}
 
-//fun main(){
+//fun `Chapter1~2`.main(){
 //    val person = Person("Bob",true)
 //    println(person.name)
 //    println(person.isMarried)

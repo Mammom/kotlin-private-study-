@@ -1,7 +1,8 @@
+package `Chapter1~2`
+
 import java.io.BufferedReader
 import java.io.StringReader
 import java.lang.NumberFormatException
-import java.util.*
 
 fun main(){
 //    val list = arrayListOf("10","11","1001")
@@ -19,7 +20,7 @@ fun main(){
     readNumber(reader)
 }
 
-//fun readNumber(reader : BufferedReader){
+//fun `Chapter1~2`.readNumber(reader : BufferedReader){
 //    val number =try{
 //        Integer.parseInt(reader.readLine())
 //    }catch (e:NumberFormatException){

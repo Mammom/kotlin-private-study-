@@ -1,7 +1,7 @@
-//package geometry.example
+package `Chapter1~2`//package geometry.example
 //import geometry.shapes.createRandomRectangle
 //
-//fun main(){
+//fun `Chapter1~2`.main(){
 //    println(createRandomRectangle().isSquare)
 //}
 //
@@ -12,6 +12,6 @@
 //    INDIGO(75,0,130),VIOLET(238,130,238);
 //    fun rgb() = (r*256+g)*256+b
 //}
-//fun main(){
+//fun `Chapter1~2`.main(){
 //    println(Color.BLUE.rgb())
 //}
