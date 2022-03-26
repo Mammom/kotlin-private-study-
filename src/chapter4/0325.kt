@@ -32,24 +32,24 @@ package chapter4
 // sealed 클래스 집합유형 하나를 가질수 있지만 다른 유형을 가질수 없다
 // when 에서 else가 필요 하지 않다
 
-interface User{
-    val nickname :String
-//    val email:String
-//        get() = email.substringBefore('@')
-}
-
-class PrivateUser(override val nickname : String) : User
-
-class SubscribingUser(val email :String) : User{
-    override val nickname : String
-    get() = email.substringBefore('@')
-}
-//class FacebookUser(val accountId : Int) :User{
-//    override val nickname = getFacebookName(accountId)
-//                            //getFacebookName(이함수는 다른곳에 정의 되어있다고 가정한다.)
+//interface User{
+//    val nickname :String
+////    val email:String
+////        get() = email.substringBefore('@')
 //}
-
-fun main(){
-    println(PrivateUser("test@kotlinlang.org").nickname)
-    println(SubscribingUser("test@kotlinlang.org").nickname)
-}
+//
+//class PrivateUser(override val nickname : String) : User
+//
+//class SubscribingUser(val email :String) : User{
+//    override val nickname : String
+//    get() = email.substringBefore('@')
+//}
+////class FacebookUser(val accountId : Int) :User{
+////    override val nickname = getFacebookName(accountId)
+////                            //getFacebookName(이함수는 다른곳에 정의 되어있다고 가정한다.)
+////}
+//
+//fun main(){
+//    println(PrivateUser("test@kotlinlang.org").nickname)
+//    println(SubscribingUser("test@kotlinlang.org").nickname)
+//}
