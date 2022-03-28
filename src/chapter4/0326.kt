@@ -35,6 +35,7 @@ fun main(){
 //    println(lenghtCounter.counter)
     val client1 =Client("오징어", 4112)
     val client2=Client("오징어", 4112)
-    println(client1==client2)
+    println(client1==client2) //equals
+
 }
 
